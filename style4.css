@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    background-image: url(images/blinddate.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    background-color: lightcoral;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.header{
+    width:100%;
+    height:100vh;
+    color: #e50058;
+    padding: 0 7%;
+    position: relative;
+}
+.text-box{
+    margin-top: 15%;
+	font-size: 25px;
+    position: relative;
+    align-items: center;
+}
+
+.text-box h1{
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 100px;
+    position: relative;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.text-box p{
+    font-size: 25px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.text-box .btn{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    background: #ff3e3b;
+    color: #fff;
+    padding: 14px 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    left: 560px;
+}
+
+.text-box .btn:hover{
+    background-color: #bb3331;
+    font-weight: bold;
+    color: black;
+}
+.logo{
+    width:180px;
+    cursor: pointer;
+    margin: 30px 0;
+    position: relative;
+    bottom: 28px;
+    right:90px;
+}
+
+@media only screen and (max-width:800px){
+    .logo{
+        position: relative;
+        left:-20px;
+    }
+    .text-box .btn{
+        position: relative;
+
+    }
+    .text-box{
+        position: relative;
+        right:430px;
+    }
+    
+    .text-box h1{
+        position: relative;
+        left:430px;
+
+    }
+    
+    .text-box p{
+        position: relative;
+        left:430px;
+    }
+}
